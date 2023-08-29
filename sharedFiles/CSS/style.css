@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+
+:root {
+	--color-lightblue: #2a5678;
+	--color-verylightblue: #f0f8ff;
+	--color-blue: #559bd1;
+	--color-blue2:#89b1d0;
+	--color-blue3:#deedf7;
+}	
+
+* {
+	font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+	width: 100%;
+}
+
+.logo {
+	width: 85px;
+	height: 60px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+.file-type:hover img {
+	scale: 0.9;
+}
+
+
+.all-file-types {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	column-gap: 15px;
+	padding: 20px 0px;
+}
+
+
+
+.file-type img {
+	height: 150px;
+	margin: 1rem;
+	transition: all 0.3s;
+	border-radius: 0.5rem;
+}
+
+.banner {
+	width: 100%;
+	height: 10%;
+}
+
+
+.banner .bannerpic {
+	height: 350px;
+	width: 100%;
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn 0.3s ease-in forwards;
+  }
+  
+  @keyframes fadeIn {
+	0% {
+	  opacity: 0;
+	}
+	100% {
+	  opacity: 1;
+	}
+  }
+
+
+.files {
+	background-color: lightsteelblue;
+	height: 100%;
+	width: 100%;
+}
+
+
+/*-------------------------------------------------*/
+
+/* Float four columns side by side */
+.column {
+	float: left;
+	width: 25%;
+	padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.rows {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	margin-bottom: 90px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+
+/* Clear floats after the columns */
+.rows:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+		display: block;
+		margin-bottom: 20px;
+	}
+}
+
+/* Style the counter cards */
+.card {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	background-color: white;
+	display: flex;
+	height: 220px;
+	margin: 10px 0px;
+}
+
+.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.card li {
+	list-style: none;
+	padding-left: 20px;
+
+}
+
+.card-file a {
+	color: #1d2f35;
+	text-decoration: none;
+
+}
+
+.card-file a:hover {
+	color: #1d5b78;
+	text-decoration: none;
+}
+
+.card-title {
+	font-size: 20px;
+	color: var(--color-blue);
+	font-weight: bold;
+	text-decoration: none;
+	margin: 12px;
+	margin-left: 20px;
+}
+
+.bottom {
+	position: absolute;
+	bottom: 0;
+}
+
+.card-title:hover {
+	color: #73a3b5;
+}
+
+.view {
+	font-size: 12px;
+	right: 0;
+	float: right;
+	color: grey;
+	padding-right: 20px;
+	text-decoration: underline;
+
+}
+
+.view:hover {
+	color: rgb(95, 95, 95);
+	font-size: 12.5px;
+}
+
+ol,
+ul {
+	padding: 0px;
+}
+
+.pageTitle {
+	font-size: 30px;
+	margin-top: 30px;
+	color:var(--color-blue);
+	margin-left: 30px;
+}
+.title{
+	font-size: 30px;
+	margin-top: 30px;
+	color:var(--color-lightblue);
+	margin-left: 30px;
+}
+/* ------------New Edits----------- */
+
+* {
+	box-sizing: border-box;
+}
+
+a.categories {
+	display: block;
+	text-decoration: none;
+	color: #666;
+	text-align: center;
+	padding: 20px;
+	border-radius: 5px;
+	background-color: white;
+	box-shadow: 0 0 15px rgb(0 0 0 / 10%);
+	cursor: pointer;
+	width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 10px 0px;
+
+}
+
+a.categories img {
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+.file-input {
+	display: none;
+}
+
+.upload-icon {
+	text-align: center;
+	cursor: pointer;
+}
+
+.category_select {
+	margin-bottom: 30px;
+}
+
+table {
+	border-collapse: collapse;
+	width: calc(100% - 60px);
+	border: 1px solid #ccc;
+	margin: 25px;
+}
+
+table thead {
+	background-color: var(--color-blue2);
+	color: white;
+}
+
+tbody tr {
+	background-color: #fafdff;
+}
+
+tbody tr:nth-child(odd) {
+	background-color:  var(--color-blue3);;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: center;
+}
+td form{
+	margin: 0px 3px;
+	display: inline;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+th {
+	border-bottom: 1px solid black;
+}
+
+.category_form {
+	text-align: center;
+}
+
+.category_form input[type="text"] {
+	width: 300px;
+	padding: 10px;
+	border: 1px solid #cccccc;
+	border-radius: 5px;
+	margin: 20px 0px;
+	display: inline-block;
+}
+
+.icon {
+	height: 27px;
+	width: 27px;
+}
+.btnn{
+	/* margin-top: 30px; */
+	margin: 15px;
+	color: #fff;
+	background: var(--color-blue2);
+	border: none;
+	width: 300px;
+	height: 35px;
+	transition: all .2s ease;
+	border-radius: 2px;
+}
+
+.btnn:hover {
+	background: #3b77a4;
+}
+
+.edit-buttons {
+    display: flex;
+    gap: 10px;
+	justify-content: center;
+}
