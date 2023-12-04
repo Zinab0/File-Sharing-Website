@@ -2,6 +2,7 @@
 
 # Introduction
 Welcome to the File Sharing System! This platform has been meticulously developed to serve as a dedicated hub for our team. Our goal is to facilitate streamlined data sharing and effortless access to essential files, thereby enhancing collaboration and productivity within the team. 
+This project was developed as our summer training program during summer 2023.
 
 # Development Tools
 The File Sharing System was meticulously crafted using an array of advanced tools and technologies:
@@ -62,6 +63,10 @@ The main page serves as the starting point, providing access to various sections
 1. Open the Categories page and enter a category name.
    
   <img width="338" alt="image" src="https://github.com/Zinab0/File-Sharing-Website/assets/77127247/d57d8811-c790-49ea-ad3f-49f415b4180c">
+
+# This video shows how the website works
+https://github.com/Zinab0/File-Sharing-Website/assets/77127247/c1264777-e0f9-48a6-b32b-1a3a736273b6
+
 
 # Conclusion
 The File Sharing System stands as a testament to our commitment to fostering efficient data sharing and seamless collaboration within our team. By adhering to the operational instructions outlined in this guide, users can fully harness the system's capabilities and contribute to the fluid exchange of information.
