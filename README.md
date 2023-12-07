@@ -5,7 +5,7 @@ Welcome to the File Sharing System! This platform has been meticulously develope
 This project was developed as our summer training program during summer 2023.
 
 # Development Tools
-The File Sharing System was meticulously crafted using an array of advanced tools and technologies:
+The File Sharing System tools and technologies used:
 
 1. Backend Development:
 Programming Languages: PHP, SQL
